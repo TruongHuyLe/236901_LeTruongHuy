@@ -7,3 +7,8 @@
 docker pull trhuyle/backend:latest
 docker run -d -p 5000:5000 -e MONGO_URI="chuỗi_ket_noi_mongodb" trhuyle/backend:latest
 ```
+## Hướng dẫn chạy Frontend bằng Docker
+```bash
+docker pull trhuyle/frontend:latest
+docker run -d -p 80:80 trhuyle/frontend:latest
+```
