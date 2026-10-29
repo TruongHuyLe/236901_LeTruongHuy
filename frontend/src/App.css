@@ -235,3 +235,22 @@ button:active {
   from { opacity: 0; transform: translateY(-8px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.search-box input,
+.food-form input,
+.food-form textarea {
+  color: #0f172a !important;
+  background-color: #ffffff !important;
+}
+
+.search-box input::placeholder,
+.food-form input::placeholder,
+.food-form textarea::placeholder {
+  color: #64748b !important;
+  opacity: 1;
+}
+
+.food-form input:disabled {
+  background-color: #f1f5f9 !important;
+  color: #94a3b8 !important;
+}
